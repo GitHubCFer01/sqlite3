@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F9F6A8A209302CC003FE9AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6A89209302CC003FE9AA /* AppDelegate.m */; };
+		1F9F6A8D209302CC003FE9AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6A8C209302CC003FE9AA /* ViewController.m */; };
+		1F9F6A90209302CC003FE9AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F6A8E209302CC003FE9AA /* Main.storyboard */; };
+		1F9F6A92209302CC003FE9AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F6A91209302CC003FE9AA /* Assets.xcassets */; };
+		1F9F6A95209302CC003FE9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F6A93209302CC003FE9AA /* LaunchScreen.storyboard */; };
+		1F9F6A98209302CC003FE9AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6A97209302CC003FE9AA /* main.m */; };
+		1F9F6AA2209302CC003FE9AA /* SQLITE3__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6AA1209302CC003FE9AA /* SQLITE3__Tests.m */; };
+		1F9F6AAD209302CC003FE9AA /* SQLITE3__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6AAC209302CC003FE9AA /* SQLITE3__UITests.m */; };
+		1F9F6ABC209303DA003FE9AA /* databaseHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6ABB209303DA003FE9AA /* databaseHandle.m */; };
+		1F9F6ABF20930788003FE9AA /* databaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6ABE20930788003FE9AA /* databaseModel.m */; };
+		1F9F6AC320930B40003FE9AA /* InsertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6AC120930B40003FE9AA /* InsertViewController.m */; };
+		1F9F6AC420930B40003FE9AA /* InsertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F6AC220930B40003FE9AA /* InsertViewController.xib */; };
+		1F9F6AC820931107003FE9AA /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F9F6AC620931107003FE9AA /* UpdateViewController.m */; };
+		1F9F6AC920931107003FE9AA /* UpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F9F6AC720931107003FE9AA /* UpdateViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F9F6A9E209302CC003FE9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9F6A7D209302CC003FE9AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9F6A84209302CC003FE9AA;
+			remoteInfo = "SQLITE3练习";
+		};
+		1F9F6AA9209302CC003FE9AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9F6A7D209302CC003FE9AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9F6A84209302CC003FE9AA;
+			remoteInfo = "SQLITE3练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9F6A85209302CC003FE9AA /* SQLITE3练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SQLITE3练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9F6A88209302CC003FE9AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F9F6A89209302CC003FE9AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F9F6A8B209302CC003FE9AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F9F6A8C209302CC003FE9AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F9F6A8F209302CC003FE9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9F6A91209302CC003FE9AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9F6A94209302CC003FE9AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F9F6A96209302CC003FE9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9F6A97209302CC003FE9AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F9F6A9D209302CC003FE9AA /* SQLITE3练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQLITE3练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9F6AA1209302CC003FE9AA /* SQLITE3__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLITE3__Tests.m; sourceTree = "<group>"; };
+		1F9F6AA3209302CC003FE9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9F6AA8209302CC003FE9AA /* SQLITE3练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQLITE3练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9F6AAC209302CC003FE9AA /* SQLITE3__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLITE3__UITests.m; sourceTree = "<group>"; };
+		1F9F6AAE209302CC003FE9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9F6ABA209303DA003FE9AA /* databaseHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = databaseHandle.h; sourceTree = "<group>"; };
+		1F9F6ABB209303DA003FE9AA /* databaseHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = databaseHandle.m; sourceTree = "<group>"; };
+		1F9F6ABD20930788003FE9AA /* databaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = databaseModel.h; sourceTree = "<group>"; };
+		1F9F6ABE20930788003FE9AA /* databaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = databaseModel.m; sourceTree = "<group>"; };
+		1F9F6AC020930B40003FE9AA /* InsertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertViewController.h; sourceTree = "<group>"; };
+		1F9F6AC120930B40003FE9AA /* InsertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertViewController.m; sourceTree = "<group>"; };
+		1F9F6AC220930B40003FE9AA /* InsertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InsertViewController.xib; sourceTree = "<group>"; };
+		1F9F6AC520931107003FE9AA /* UpdateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		1F9F6AC620931107003FE9AA /* UpdateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
+		1F9F6AC720931107003FE9AA /* UpdateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpdateViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9F6A82209302CC003FE9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F6A9A209302CC003FE9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F6AA5209302CC003FE9AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9F6A7C209302CC003FE9AA = {
+			isa = PBXGroup;
+			children = (
+				1F9F6A87209302CC003FE9AA /* SQLITE3练习 */,
+				1F9F6AA0209302CC003FE9AA /* SQLITE3练习Tests */,
+				1F9F6AAB209302CC003FE9AA /* SQLITE3练习UITests */,
+				1F9F6A86209302CC003FE9AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9F6A86209302CC003FE9AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F6A85209302CC003FE9AA /* SQLITE3练习.app */,
+				1F9F6A9D209302CC003FE9AA /* SQLITE3练习Tests.xctest */,
+				1F9F6AA8209302CC003FE9AA /* SQLITE3练习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9F6A87209302CC003FE9AA /* SQLITE3练习 */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F6A88209302CC003FE9AA /* AppDelegate.h */,
+				1F9F6A89209302CC003FE9AA /* AppDelegate.m */,
+				1F9F6A8B209302CC003FE9AA /* ViewController.h */,
+				1F9F6A8C209302CC003FE9AA /* ViewController.m */,
+				1F9F6AC520931107003FE9AA /* UpdateViewController.h */,
+				1F9F6AC620931107003FE9AA /* UpdateViewController.m */,
+				1F9F6AC720931107003FE9AA /* UpdateViewController.xib */,
+				1F9F6AC020930B40003FE9AA /* InsertViewController.h */,
+				1F9F6AC120930B40003FE9AA /* InsertViewController.m */,
+				1F9F6AC220930B40003FE9AA /* InsertViewController.xib */,
+				1F9F6ABA209303DA003FE9AA /* databaseHandle.h */,
+				1F9F6ABB209303DA003FE9AA /* databaseHandle.m */,
+				1F9F6ABD20930788003FE9AA /* databaseModel.h */,
+				1F9F6ABE20930788003FE9AA /* databaseModel.m */,
+				1F9F6A8E209302CC003FE9AA /* Main.storyboard */,
+				1F9F6A91209302CC003FE9AA /* Assets.xcassets */,
+				1F9F6A93209302CC003FE9AA /* LaunchScreen.storyboard */,
+				1F9F6A96209302CC003FE9AA /* Info.plist */,
+				1F9F6A97209302CC003FE9AA /* main.m */,
+			);
+			path = "SQLITE3练习";
+			sourceTree = "<group>";
+		};
+		1F9F6AA0209302CC003FE9AA /* SQLITE3练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F6AA1209302CC003FE9AA /* SQLITE3__Tests.m */,
+				1F9F6AA3209302CC003FE9AA /* Info.plist */,
+			);
+			path = "SQLITE3练习Tests";
+			sourceTree = "<group>";
+		};
+		1F9F6AAB209302CC003FE9AA /* SQLITE3练习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F6AAC209302CC003FE9AA /* SQLITE3__UITests.m */,
+				1F9F6AAE209302CC003FE9AA /* Info.plist */,
+			);
+			path = "SQLITE3练习UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9F6A84209302CC003FE9AA /* SQLITE3练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9F6AB1209302CC003FE9AA /* Build configuration list for PBXNativeTarget "SQLITE3练习" */;
+			buildPhases = (
+				1F9F6A81209302CC003FE9AA /* Sources */,
+				1F9F6A82209302CC003FE9AA /* Frameworks */,
+				1F9F6A83209302CC003FE9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLITE3练习";
+			productName = "SQLITE3练习";
+			productReference = 1F9F6A85209302CC003FE9AA /* SQLITE3练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F9F6A9C209302CC003FE9AA /* SQLITE3练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9F6AB4209302CC003FE9AA /* Build configuration list for PBXNativeTarget "SQLITE3练习Tests" */;
+			buildPhases = (
+				1F9F6A99209302CC003FE9AA /* Sources */,
+				1F9F6A9A209302CC003FE9AA /* Frameworks */,
+				1F9F6A9B209302CC003FE9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9F6A9F209302CC003FE9AA /* PBXTargetDependency */,
+			);
+			name = "SQLITE3练习Tests";
+			productName = "SQLITE3练习Tests";
+			productReference = 1F9F6A9D209302CC003FE9AA /* SQLITE3练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F9F6AA7209302CC003FE9AA /* SQLITE3练习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9F6AB7209302CC003FE9AA /* Build configuration list for PBXNativeTarget "SQLITE3练习UITests" */;
+			buildPhases = (
+				1F9F6AA4209302CC003FE9AA /* Sources */,
+				1F9F6AA5209302CC003FE9AA /* Frameworks */,
+				1F9F6AA6209302CC003FE9AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9F6AAA209302CC003FE9AA /* PBXTargetDependency */,
+			);
+			name = "SQLITE3练习UITests";
+			productName = "SQLITE3练习UITests";
+			productReference = 1F9F6AA8209302CC003FE9AA /* SQLITE3练习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9F6A7D209302CC003FE9AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "@刘珂";
+				TargetAttributes = {
+					1F9F6A84209302CC003FE9AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1F9F6A9C209302CC003FE9AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F9F6A84209302CC003FE9AA;
+					};
+					1F9F6AA7209302CC003FE9AA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F9F6A84209302CC003FE9AA;
+					};
+				};
+			};
+			buildConfigurationList = 1F9F6A80209302CC003FE9AA /* Build configuration list for PBXProject "SQLITE3练习" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9F6A7C209302CC003FE9AA;
+			productRefGroup = 1F9F6A86209302CC003FE9AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9F6A84209302CC003FE9AA /* SQLITE3练习 */,
+				1F9F6A9C209302CC003FE9AA /* SQLITE3练习Tests */,
+				1F9F6AA7209302CC003FE9AA /* SQLITE3练习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9F6A83209302CC003FE9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9F6A95209302CC003FE9AA /* LaunchScreen.storyboard in Resources */,
+				1F9F6AC920931107003FE9AA /* UpdateViewController.xib in Resources */,
+				1F9F6AC420930B40003FE9AA /* InsertViewController.xib in Resources */,
+				1F9F6A92209302CC003FE9AA /* Assets.xcassets in Resources */,
+				1F9F6A90209302CC003FE9AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F6A9B209302CC003FE9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F6AA6209302CC003FE9AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9F6A81209302CC003FE9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9F6ABC209303DA003FE9AA /* databaseHandle.m in Sources */,
+				1F9F6A8D209302CC003FE9AA /* ViewController.m in Sources */,
+				1F9F6A98209302CC003FE9AA /* main.m in Sources */,
+				1F9F6AC820931107003FE9AA /* UpdateViewController.m in Sources */,
+				1F9F6AC320930B40003FE9AA /* InsertViewController.m in Sources */,
+				1F9F6A8A209302CC003FE9AA /* AppDelegate.m in Sources */,
+				1F9F6ABF20930788003FE9AA /* databaseModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F6A99209302CC003FE9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9F6AA2209302CC003FE9AA /* SQLITE3__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F6AA4209302CC003FE9AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9F6AAD209302CC003FE9AA /* SQLITE3__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9F6A9F209302CC003FE9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9F6A84209302CC003FE9AA /* SQLITE3练习 */;
+			targetProxy = 1F9F6A9E209302CC003FE9AA /* PBXContainerItemProxy */;
+		};
+		1F9F6AAA209302CC003FE9AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9F6A84209302CC003FE9AA /* SQLITE3练习 */;
+			targetProxy = 1F9F6AA9209302CC003FE9AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F9F6A8E209302CC003FE9AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9F6A8F209302CC003FE9AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9F6A93209302CC003FE9AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9F6A94209302CC003FE9AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F9F6AAF209302CC003FE9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F9F6AB0209302CC003FE9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9F6AB2209302CC003FE9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLITE3练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-.com.SQLITE3--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9F6AB3209302CC003FE9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLITE3练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-.com.SQLITE3--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F9F6AB5209302CC003FE9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLITE3练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-.com.SQLITE3--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLITE3练习.app/SQLITE3练习";
+			};
+			name = Debug;
+		};
+		1F9F6AB6209302CC003FE9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLITE3练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-.com.SQLITE3--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLITE3练习.app/SQLITE3练习";
+			};
+			name = Release;
+		};
+		1F9F6AB8209302CC003FE9AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLITE3练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-.com.SQLITE3--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SQLITE3练习";
+			};
+			name = Debug;
+		};
+		1F9F6AB9209302CC003FE9AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SQLITE3练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "www.-.com.SQLITE3--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SQLITE3练习";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9F6A80209302CC003FE9AA /* Build configuration list for PBXProject "SQLITE3练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F6AAF209302CC003FE9AA /* Debug */,
+				1F9F6AB0209302CC003FE9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9F6AB1209302CC003FE9AA /* Build configuration list for PBXNativeTarget "SQLITE3练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F6AB2209302CC003FE9AA /* Debug */,
+				1F9F6AB3209302CC003FE9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9F6AB4209302CC003FE9AA /* Build configuration list for PBXNativeTarget "SQLITE3练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F6AB5209302CC003FE9AA /* Debug */,
+				1F9F6AB6209302CC003FE9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9F6AB7209302CC003FE9AA /* Build configuration list for PBXNativeTarget "SQLITE3练习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F6AB8209302CC003FE9AA /* Debug */,
+				1F9F6AB9209302CC003FE9AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9F6A7D209302CC003FE9AA /* Project object */;
+}
